@@ -1,0 +1,30 @@
+{
+  "name": "@pysche/redis",
+  "version": "1.0.0",
+  "description": "Bluebird处理过后的redis类库",
+  "main": "index.js",
+  "scripts": {
+    "dev": "export NODE_ENV=test && node test.js",
+    "test": "jest",
+    "lint": "eslint --ext .js --ext .jsx ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "config": "^3.3.1",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-sonar": "^0.0.8",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
